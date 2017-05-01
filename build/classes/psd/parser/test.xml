@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><psd>
+<layers>
+<layer height="1334" name="Background" width="750" x="0" y="0"/>
+<layer height="927" name="Rectangle_2" width="752" x="-1" y="408"/>
+<layer height="0" name="Navigation" type="group" width="0" x="0" y="0">
+<layer height="412" name="Rectangle_1" width="752" x="-1" y="-1"/>
+<layer height="478" name="Forma_1_copy" width="563" x="-353" y="-4"/>
+<layer height="36" name="Shape_1" width="49" x="27" y="46"/>
+<layer height="93" name="Ellipse_2" width="93" x="612" y="24"/>
+<layer height="101" name="Layer_2" src="Layer_2.png" type="image" width="150" x="588" y="18"/>
+<layer height="0" name="Logo" type="group" width="0" x="0" y="0">
+<layer height="79" name="Forma_1" width="93" x="160" y="157"/>
+<layer color="0xFFFFFF" font="Montserrat-Light" height="47" name="Easyworkflow" size="70" type="text" width="322" x="269" y="173">[Easyworkflow]</layer>
+</layer>
+<layer color="0xFFFFFF" font="Avenir-Medium" height="24" name="Hi_Julian_" size="30" type="text" width="124" x="472" y="58">[Hi Julian!]</layer>
+</layer>
+<layer height="0" name="Search" type="group" width="0" x="0" y="0">
+<layer height="68" name="Rounded_Rectangle_1_copy_2" width="702" x="24" y="295"/>
+<layer height="0" name="Group_1" type="group" width="0" x="0" y="0">
+<layer height="34" name="Ellipse_2" width="34" x="255" y="312"/>
+<layer color="0x626F6F" font="Avenir-Book" height="20" name="search_contacts" size="25" type="text" width="176" x="319" y="320">[search contacts]</layer>
+</layer>
+</layer>
+<layer height="0" name="Contacts" type="group" width="0" x="0" y="0">
+<layer height="0" name="_1" type="group" width="0" x="0" y="0">
+<layer height="121" name="Rounded_Rectangle_1" width="703" x="23" y="437"/>
+<layer color="0x1D1D1D" font="Avenir-Medium" height="29" name="Anthony_Johnson" size="28" type="text" width="219" x="156" y="484">[Anthony Johnson]</layer>
+<layer height="0" name="Avatar" type="group" width="0" x="0" y="0">
+<layer height="83" name="Avatar_Mask" width="84" x="45" y="456"/>
+<layer height="105" name="Layer_13" src="Layer_13.png" type="image" width="90" x="41" y="455"/>
+</layer>
+<layer height="52" name="messages" width="63" x="472" y="471"/>
+<layer height="54" name="Shape_1" width="39" x="664" y="474"/>
+<layer height="40" name="Shape_3" width="59" x="467" y="476"/>
+</layer>
+<layer height="0" name="_1_copy" type="group" width="0" x="0" y="0">
+<layer height="121" name="Rounded_Rectangle_1" width="703" x="23" y="574"/>
+<layer color="0x1D1D1D" font="Avenir-Medium" height="27" name="Bruce_Wayne" size="28" type="text" width="162" x="158" y="623">[Bruce Wayne]</layer>
+<layer height="0" name="Avatar" type="group" width="0" x="0" y="0">
+<layer height="83" name="Avatar_Mask" width="84" x="45" y="593"/>
+<layer height="92" name="Layer_14" src="Layer_14.png" type="image" width="92" x="41" y="584"/>
+</layer>
+<layer height="59" name="Shape_1_copy" width="42" x="660" y="605"/>
+</layer>
+<layer height="0" name="_1_copy_2" type="group" width="0" x="0" y="0">
+<layer height="121" name="Rounded_Rectangle_1" width="703" x="23" y="711"/>
+<layer color="0x1D1D1D" font="Avenir-Medium" height="21" name="Davon_Peterson" size="28" type="text" width="195" x="158" y="760">[Davon Peterson]</layer>
+<layer height="0" name="Avatar" type="group" width="0" x="0" y="0">
+<layer height="83" name="Avatar_Mask" width="84" x="45" y="730"/>
+<layer height="86" name="Layer_16" src="Layer_16.png" type="image" width="129" x="25" y="727"/>
+</layer>
+<layer height="59" name="Shape_1_copy_5" width="42" x="660" y="742"/>
+</layer>
+<layer height="0" name="_1_copy_3" type="group" width="0" x="0" y="0">
+<layer height="121" name="Rounded_Rectangle_1" width="703" x="23" y="848"/>
+<layer color="0x1D1D1D" font="Avenir-Medium" height="29" name="Carolyn_Meywheather" size="28" type="text" width="274" x="157" y="895">[Carolyn Meywheather]</layer>
+<layer height="0" name="Avatar" type="group" width="0" x="0" y="0">
+<layer height="83" name="Avatar_Mask" width="84" x="45" y="867"/>
+<layer height="120" name="Layer_15" src="Layer_15.png" type="image" width="178" x="-24" y="861"/>
+</layer>
+<layer height="59" name="Shape_1_copy_4" width="42" x="660" y="880"/>
+</layer>
+<layer height="0" name="_1_copy_4" type="group" width="0" x="0" y="0">
+<layer height="121" name="Rounded_Rectangle_1" width="703" x="23" y="985"/>
+<layer color="0x1D1D1D" font="Avenir-Medium" height="23" name="Ethan_Haskel" size="28" type="text" width="160" x="158" y="1032">[Ethan Haskel]</layer>
+<layer height="0" name="Avatar" type="group" width="0" x="0" y="0">
+<layer height="83" name="Avatar_Mask" width="84" x="45" y="1004"/>
+<layer height="92" name="Layer_14" src="Layer_14.png" type="image" width="92" x="41" y="995"/>
+</layer>
+<layer height="59" name="Shape_1_copy_3" width="42" x="660" y="1015"/>
+</layer>
+<layer height="0" name="_1_copy_5" type="group" width="0" x="0" y="0">
+<layer height="121" name="Rounded_Rectangle_1" width="703" x="23" y="1122"/>
+<layer color="0x1D1D1D" font="Avenir-Medium" height="27" name="Peter_Lugar" size="28" type="text" width="145" x="158" y="1171">[Peter Lugar]</layer>
+<layer height="59" name="Shape_1_copy_2" width="42" x="660" y="1153"/>
+<layer height="0" name="Avatar" type="group" width="0" x="0" y="0">
+<layer height="83" name="Avatar_Mask" width="84" x="45" y="1141"/>
+<layer height="105" name="Layer_13" src="Layer_13.png" type="image" width="90" x="41" y="1140"/>
+</layer>
+</layer>
+</layer>
+<layer height="0" name="Status_bar" type="group" width="0" x="0" y="0">
+<layer height="0" name="Battery" type="group" width="0" x="0" y="0">
+<layer color="0x3F3F3F" font="HelveticaNeue" height="18" name="_100_" size="24" type="text" width="58" x="622" y="14">[100%]</layer>
+<layer height="22" name="battery" width="48" x="688" y="12"/>
+<layer height="17" name="Charge" width="44" x="690" y="14"/>
+<layer height="10" name="_" width="5" x="734" y="18"/>
+</layer>
+<layer height="30" name="Bluetooth" width="18" x="591" y="7"/>
+<layer color="0x3F3F3F" font="HelveticaNeue-Medium" height="19" name="_4_21_PM" size="25" type="text" width="95" x="339" y="13">[4:21 PM]</layer>
+<layer height="0" name="Signal___Carrier" type="group" width="0" x="0" y="0">
+<layer height="22" name="wifi" width="27" x="232" y="11"/>
+<layer color="0x3F3F3F" font="HelveticaNeue" height="18" name="ProWorkflow" size="23" type="text" width="134" x="91" y="14">[ProWorkflow]</layer>
+<layer height="13" name="Ellipse_1" width="14" x="13" y="16"/>
+<layer height="13" name="Ellipse_1" width="14" x="26" y="16"/>
+<layer height="13" name="Ellipse_1" width="14" x="40" y="16"/>
+<layer height="13" name="Ellipse_1" width="15" x="54" y="16"/>
+<layer height="13" name="Ellipse_1" width="14" x="69" y="16"/>
+</layer>
+</layer>
+</layers>
+</psd>

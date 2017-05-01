@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ping" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_0.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc0">
+                                <rect key="frame" x="0" y="0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_2_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc1">
+                                <rect key="frame" x="187" y="204" width="376" height="463"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_1_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc2">
+                                <rect key="frame" x="96" y="0" width="466" height="296"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="forma_1_3.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc3">
+                                <rect key="frame" x="268" y="72" width="46" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Easyworkflow" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac4">
+                            <rect key="frame" x="323" y="72" width="160" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="1.0" green="1.0" blue="1.0" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Light" pointSize="23"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_1_5.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc5">
+                                <rect key="frame" x="202" y="23" width="24" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ellipse_2_6.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc6">
+                                <rect key="frame" x="493" y="12" width="46" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="layer_2_7.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc7">
+                                <rect key="frame" x="482" y="9" width="74" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Hi Julian!" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac8">
+                            <rect key="frame" x="424" y="21" width="62" height="24"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="1.0" green="1.0" blue="1.0" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Medium" pointSize="10"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rounded_rectangle_1_copy_2_9.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc9">
+                                <rect key="frame" x="265" y="147" width="221" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ellipse_2_10.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc10">
+                                <rect key="frame" x="278" y="156" width="17" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="search contacts" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac11">
+                            <rect key="frame" x="311" y="152" width="87" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="0.38431" green="0.4353" blue="0.48236" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" pointSize="8"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rounded_rectangle_1_12.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc12">
+                                <rect key="frame" x="199" y="218" width="351" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.3882353" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Anthony Johnson" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac13">
+                            <rect key="frame" x="266" y="234" width="109" height="26"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="0.11374" green="0.11374" blue="0.14902" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Medium" pointSize="9"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_mask_14.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc14">
+                                <rect key="frame" x="211" y="228" width="42" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="layer_13_15.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc15">
+                                <rect key="frame" x="209" y="228" width="44" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="messages_16.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc16">
+                                <rect key="frame" x="424" y="235" width="31" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_1_17.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc17">
+                                <rect key="frame" x="517" y="234" width="21" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mobile_18.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc18">
+                                <rect key="frame" x="477" y="233" width="16" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_3_19.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc19">
+                                <rect key="frame" x="421" y="237" width="30" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rounded_rectangle_1_20.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc20">
+                                <rect key="frame" x="200" y="287" width="351" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Bruce Wayne" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac21">
+                            <rect key="frame" x="267" y="303" width="81" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="0.11374" green="0.11374" blue="0.14902" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Medium" pointSize="9"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_mask_22.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc22">
+                                <rect key="frame" x="211" y="296" width="42" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="0.43137255" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="layer_14_23.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc23">
+                                <rect key="frame" x="209" y="292" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_1_copy_24.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc24">
+                                <rect key="frame" x="518" y="302" width="21" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mobile_copy_25.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc25">
+                                <rect key="frame" x="477" y="302" width="16" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_3_copy_26.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc26">
+                                <rect key="frame" x="421" y="307" width="30" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rounded_rectangle_1_27.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc27">
+                                <rect key="frame" x="200" y="355" width="351" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Davon Peterson" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac28">
+                            <rect key="frame" x="267" y="372" width="97" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="0.11374" green="0.11374" blue="0.14902" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Medium" pointSize="9"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_mask_29.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc29">
+                                <rect key="frame" x="211" y="365" width="42" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="layer_16_30.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc30">
+                                <rect key="frame" x="201" y="364" width="63" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_3_copy_2_31.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc31">
+                                <rect key="frame" x="421" y="375" width="30" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_1_copy_5_32.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc32">
+                                <rect key="frame" x="518" y="371" width="21" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mobile_copy_5_33.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc33">
+                                <rect key="frame" x="477" y="370" width="16" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rounded_rectangle_1_34.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc34">
+                                <rect key="frame" x="200" y="424" width="351" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Carolyn Meywheather" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac35">
+                            <rect key="frame" x="267" y="439" width="137" height="26"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="0.11374" green="0.11374" blue="0.14902" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Medium" pointSize="9"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_mask_36.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc36">
+                                <rect key="frame" x="211" y="433" width="42" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="layer_15_37.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc37">
+                                <rect key="frame" x="177" y="431" width="88" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_3_copy_3_38.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc38">
+                                <rect key="frame" x="421" y="444" width="30" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_1_copy_4_39.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc39">
+                                <rect key="frame" x="518" y="440" width="21" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mobile_copy_4_40.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc40">
+                                <rect key="frame" x="477" y="439" width="16" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rounded_rectangle_1_41.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc41">
+                                <rect key="frame" x="200" y="492" width="351" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Ethan Haskel" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac42">
+                            <rect key="frame" x="267" y="508" width="80" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="0.11374" green="0.11374" blue="0.14902" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Medium" pointSize="9"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_mask_43.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc43">
+                                <rect key="frame" x="211" y="502" width="42" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="layer_14_44.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc44">
+                                <rect key="frame" x="209" y="498" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_3_copy_4_45.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc45">
+                                <rect key="frame" x="421" y="512" width="30" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_1_copy_3_46.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc46">
+                                <rect key="frame" x="518" y="507" width="21" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mobile_copy_3_47.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc47">
+                                <rect key="frame" x="477" y="507" width="16" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rounded_rectangle_1_48.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc48">
+                                <rect key="frame" x="200" y="561" width="351" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Peter Lugar" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac49">
+                            <rect key="frame" x="267" y="577" width="72" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="0.11374" green="0.11374" blue="0.14902" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Medium" pointSize="9"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_3_copy_5_50.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc50">
+                                <rect key="frame" x="421" y="580" width="30" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_1_copy_2_51.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc51">
+                                <rect key="frame" x="518" y="576" width="21" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mobile_copy_2_52.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc52">
+                                <rect key="frame" x="477" y="576" width="16" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar_mask_53.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc53">
+                                <rect key="frame" x="211" y="570" width="42" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="layer_13_54.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc54">
+                                <rect key="frame" x="209" y="570" width="44" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_2_55.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc55">
+                                <rect key="frame" x="0" y="0" width="279" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_4_56.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc56">
+                                <rect key="frame" x="-20" y="0" width="114" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_3_57.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc57">
+                                <rect key="frame" x="25" y="20" width="27" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Home" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac58">
+                            <rect key="frame" x="75" y="19" width="39" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="1.0" green="1.0" blue="1.0" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" pointSize="10"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_4_59.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc59">
+                                <rect key="frame" x="-20" y="66" width="114" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_1_copy_2_60.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc60">
+                                <rect key="frame" x="29" y="84" width="19" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Projects" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac61">
+                            <rect key="frame" x="75" y="85" width="51" height="27"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="1.0" green="1.0" blue="1.0" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" pointSize="10"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_4_62.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc62">
+                                <rect key="frame" x="-20" y="134" width="114" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_1_63.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc63">
+                                <rect key="frame" x="25" y="154" width="27" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Tasks" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac64">
+                            <rect key="frame" x="75" y="154" width="34" height="24"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="1.0" green="1.0" blue="1.0" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" pointSize="10"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_4_65.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc65">
+                                <rect key="frame" x="-20" y="201" width="114" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_1_66.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc66">
+                                <rect key="frame" x="24" y="223" width="31" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Messages" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac67">
+                            <rect key="frame" x="75" y="220" width="64" height="27"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="1.0" green="1.0" blue="1.0" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" pointSize="10"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_4_copy_68.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc68">
+                                <rect key="frame" x="-20" y="269" width="114" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_1_69.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc69">
+                                <rect key="frame" x="24" y="290" width="27" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Contacts" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac70">
+                            <rect key="frame" x="75" y="289" width="58" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="1.0" green="1.0" blue="1.0" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" pointSize="10"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_4_71.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc71">
+                                <rect key="frame" x="-20" y="336" width="114" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Companies" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac72">
+                            <rect key="frame" x="75" y="355" width="75" height="27"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="1.0" green="1.0" blue="1.0" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" pointSize="10"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_7_73.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc73">
+                                <rect key="frame" x="24" y="359" width="29" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_4_copy_2_74.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc74">
+                                <rect key="frame" x="-20" y="404" width="114" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Quotes" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac75">
+                            <rect key="frame" x="75" y="424" width="48" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="1.0" green="1.0" blue="1.0" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" pointSize="10"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_7_76.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc76">
+                                <rect key="frame" x="27" y="423" width="23" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_4_copy_2_77.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc77">
+                                <rect key="frame" x="-20" y="471" width="114" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Invoices" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac78">
+                            <rect key="frame" x="75" y="492" width="52" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="1.0" green="1.0" blue="1.0" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" pointSize="10"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_8_79.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc79">
+                                <rect key="frame" x="26" y="493" width="23" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_4_copy_2_80.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc80">
+                                <rect key="frame" x="-20" y="539" width="114" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_4_81.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc81">
+                                <rect key="frame" x="26" y="559" width="28" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Settings" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac82">
+                            <rect key="frame" x="75" y="558" width="53" height="27"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="1.0" green="1.0" blue="1.0" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" pointSize="10"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_4_copy_2_83.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc83">
+                                <rect key="frame" x="-20" y="606" width="114" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Logout" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac84">
+                            <rect key="frame" x="75" y="622" width="46" height="27"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="1.0" green="1.0" blue="1.0" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" pointSize="10"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shape_10_85.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc85">
+                                <rect key="frame" x="25" y="625" width="23" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_86.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc86">
+                                <rect key="frame" x="0" y="66" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_copy_87.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc87">
+                                <rect key="frame" x="0" y="65" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_88.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc88">
+                                <rect key="frame" x="0" y="133" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_copy_89.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc89">
+                                <rect key="frame" x="0" y="133" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_90.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc90">
+                                <rect key="frame" x="0" y="201" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_copy_91.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc91">
+                                <rect key="frame" x="0" y="200" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_92.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc92">
+                                <rect key="frame" x="0" y="268" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_copy_93.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc93">
+                                <rect key="frame" x="0" y="268" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_94.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc94">
+                                <rect key="frame" x="0" y="336" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_copy_95.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc95">
+                                <rect key="frame" x="0" y="335" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_copy_2_96.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc96">
+                                <rect key="frame" x="0" y="403" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_copy_2_97.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc97">
+                                <rect key="frame" x="0" y="403" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_copy_3_98.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc98">
+                                <rect key="frame" x="0" y="471" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_copy_3_99.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc99">
+                                <rect key="frame" x="0" y="470" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_copy_3_100.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc100">
+                                <rect key="frame" x="0" y="538" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_copy_3_101.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc101">
+                                <rect key="frame" x="0" y="538" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_copy_3_102.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc102">
+                                <rect key="frame" x="0" y="606" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_copy_3_103.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc103">
+                                <rect key="frame" x="0" y="605" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_copy_3_104.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc104">
+                                <rect key="frame" x="0" y="673" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle_3_copy_3_105.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc105">
+                                <rect key="frame" x="0" y="673" width="189" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="100%" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac106">
+                            <rect key="frame" x="311" y="-1" width="29" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="0.24706" green="0.24706" blue="0.24706" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" pointSize="8"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="battery_107.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc107">
+                                <rect key="frame" x="344" y="6" width="24" height="11"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="charge_108.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc108">
+                                <rect key="frame" x="345" y="7" width="22" height="8"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="__109.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc109">
+                                <rect key="frame" x="367" y="9" width="2" height="5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bluetooth_110.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc110">
+                                <rect key="frame" x="295" y="3" width="9" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="4:21 PM" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac111">
+                            <rect key="frame" x="169" y="-2" width="47" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="0.24706" green="0.24706" blue="0.24706" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" pointSize="8"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wifi_112.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc112">
+                                <rect key="frame" x="116" y="5" width="13" height="11"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="1.0" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="ProWorkflow" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG6-Lb-Ac113">
+                            <rect key="frame" x="45" y="-1" width="67" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" red="0.24706" green="0.24706" blue="0.24706" alpha="1.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" pointSize="7"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ellipse_1_114.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc114">
+                                <rect key="frame" x="6" y="8" width="7" height="6"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ellipse_1_115.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc115">
+                                <rect key="frame" x="13" y="8" width="7" height="6"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ellipse_1_116.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc116">
+                                <rect key="frame" x="20" y="8" width="7" height="6"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ellipse_1_117.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc117">
+                                <rect key="frame" x="27" y="8" width="7" height="6"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                            <imageView userInteractionEnabled="NO" alpha="1.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ellipse_1_118.png" translatesAutoresizingMaskIntoConstraints="NO" id="ol8-ru-gc118">
+                                <rect key="frame" x="34" y="8" width="7" height="6"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+
+                        </subviews>
+                        
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
+        </scene>
+    </scenes>
+</document> 

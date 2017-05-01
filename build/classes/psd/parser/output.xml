@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent"><TextView android:text="photoshop">
+<TextView android:text="4:21 PM">
+<TextView android:text="100%">
+<TextView android:text="Davon Peterson">
+<TextView android:text="Bruce Wayne">
+<TextView android:text="Anthony Johnson">
+<TextView android:text="Edit">
+<TextView android:text="Complete">
+<TextView android:text="Due: 10-August-2015">
+<TextView android:text="Client: 		Stone Crew Ltd.
+Manager: 	Faraz Aziz
+Category: 	General Work
+Category: 	Very High
+">
+<TextView android:text="Start: 10-August-2015">
+<TextView android:text="We want to make it easy for you to learn the Workflow ropes, so to get you started we have a small Project for you. Firstly, you may need to add in a few Contacts into the system, the more the merrier. Here's a guide on how to get the party started.">
+<TextView android:text="Invoiced: $780">
+<TextView android:text="$1,740">
+<TextView android:text="Allocated: 1:00">
+<TextView android:text="0:40 hrs">
+<TextView android:text="Details">
+<TextView android:text="Files">
+<TextView android:text="Messages">
+<TextView android:text="Tasks">
+<TextView android:text="">
+<TextView android:text="">
+<TextView android:text="workflow web app">
+</LinearLayout>
